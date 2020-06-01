@@ -42,4 +42,7 @@ tech.on('connection', (socket)=>{
     tech.emit('message', 'User Disconnected');
   });
 
+  io.io()
+
+
 });
